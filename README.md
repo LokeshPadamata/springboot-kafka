@@ -1,3 +1,5 @@
+Steps to run kafka Locally:
+
 Step1(Generating Random UUID): .\bin\windows\kafka-storage.bat random-uuid
 
 Step2: .\bin\windows\kafka-storage.bat format -t randomuuid -c C:\kafka_2.13-4.0.0\config\server.properties
